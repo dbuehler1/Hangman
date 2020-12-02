@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="man.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+    <legend>Hangman</legend>
+    <button type="button" id="begin">Begin</button>
+    <label for="guess" class="GuessWord">Enter Letter Guess</label><br>
+    <input type="text" id="guess" class="GuessWord"><br>
+    <button type="button" id="enter" class="GuessWord">Enter</button><br>
+    Strikes(6 strikes = Lose):<br><br>
+    <div id = "strikes"></div><br>
+    <div id="error"></div><br>
+    <h2>~~Guessed Letters~~</h2>
+    <div id="guessedLetters"></div>
+    <br>
+    <fieldset>
+        <h1 id="hangman"></h1>
+    </fieldset>
+    <div id="result"></div><br>
+</fieldset>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src = "code.js"></script>
+</body>
+</html>
